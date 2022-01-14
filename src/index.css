@@ -1,0 +1,34 @@
+body{
+  overflow: hidden;
+  background: #222;
+}
+p{
+  color: white;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+  padding: 16px;
+  width: 80%;
+  margin:auto;
+  border: 1px solid lightgray;
+  border-radius: 6%;
+  font-size: 25px ;
+  background: #7c7c7c2b;
+  color: white;
+}
+.input:focus{
+  outline: none;
+}
+.weather-data{
+  color: white;
+}
+
+.temp{
+  color: mediumseagreen;
+}
